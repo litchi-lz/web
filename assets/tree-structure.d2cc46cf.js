@@ -1,0 +1,1 @@
+import{a as e,b as r}from"./index.cc4d245b.js";const o={class:"markdown-body"},m={__name:"tree-structure",setup(a,{expose:t}){return t({frontmatter:{}}),(c,n)=>(e(),r("div",o))}};export{m as default};

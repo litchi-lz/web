@@ -1,0 +1,1 @@
+const d=()=>{setTimeout(()=>{const t=document.querySelectorAll(".pre");console.log(t),t.forEach(e=>{e.classList.add("loaded")}),document.querySelectorAll(".next").forEach((e,o)=>{e.classList.add("loaded"),e.addEventListener("transitionend",function n(){t[o].classList.add("hidden"),e.removeEventListener("transitionend",n)})})},2e3)};export{d as o};
